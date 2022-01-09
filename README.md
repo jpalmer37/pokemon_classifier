@@ -1,1 +1,2 @@
-# pokemon_classifier
+# Pokemon Neural Network Classifier
+
