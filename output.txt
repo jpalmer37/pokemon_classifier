@@ -1,0 +1,51 @@
+# Pokemon Kaggle 
+
+train_batch = 50
+val_batch = 100
+
+
+
+Epoch 1/10
+149/149 [==============================] - 252s 2s/step - loss: 3.7101 - accuracy: 0.2131 - val_loss: 5.6883 - val_accuracy: 0.1367
+Epoch 2/10
+149/149 [==============================] - 247s 2s/step - loss: 1.6923 - accuracy: 0.5670 - val_loss: 2.0984 - val_accuracy: 0.5106
+Epoch 3/10
+149/149 [==============================] - 247s 2s/step - loss: 1.0582 - accuracy: 0.7155 - val_loss: 1.5784 - val_accuracy: 0.6006
+Epoch 4/10
+149/149 [==============================] - 247s 2s/step - loss: 0.7552 - accuracy: 0.7838 - val_loss: 1.6824 - val_accuracy: 0.6339
+Epoch 5/10
+149/149 [==============================] - 246s 2s/step - loss: 0.6394 - accuracy: 0.8173 - val_loss: 1.5966 - val_accuracy: 0.6394
+Epoch 6/10
+149/149 [==============================] - 247s 2s/step - loss: 0.5548 - accuracy: 0.8410 - val_loss: 1.9713 - val_accuracy: 0.5744
+Epoch 7/10
+149/149 [==============================] - 246s 2s/step - loss: 0.4711 - accuracy: 0.8584 - val_loss: 1.8710 - val_accuracy: 0.6261
+Epoch 8/10
+149/149 [==============================] - 247s 2s/step - loss: 0.4384 - accuracy: 0.8672 - val_loss: 1.3057 - val_accuracy: 0.7011
+Epoch 9/10
+149/149 [==============================] - 247s 2s/step - loss: 0.3544 - accuracy: 0.8908 - val_loss: 1.4207 - val_accuracy: 0.6900
+Epoch 10/10
+149/149 [==============================] - 247s 2s/step - loss: 0.3414 - accuracy: 0.8984 - val_loss: 1.3116 - val_accuracy: 0.7206
+
+
+
+- model
+    - xception
+    - dropout(0.4)
+    - output
+
+Epoch 1/8
+149/149 [==============================] - 247s 2s/step - loss: 3.3642 - accuracy: 0.2846 - val_loss: 4.5611 - val_accuracy: 0.1804
+Epoch 2/8
+149/149 [==============================] - 244s 2s/step - loss: 1.2005 - accuracy: 0.6798 - val_loss: 1.5696 - val_accuracy: 0.6065
+Epoch 3/8
+149/149 [==============================] - 243s 2s/step - loss: 0.7284 - accuracy: 0.8012 - val_loss: 1.5358 - val_accuracy: 0.6201
+Epoch 4/8
+149/149 [==============================] - 244s 2s/step - loss: 0.5551 - accuracy: 0.8433 - val_loss: 1.4390 - val_accuracy: 0.6533
+Epoch 5/8
+149/149 [==============================] - 243s 2s/step - loss: 0.4495 - accuracy: 0.8694 - val_loss: 1.3801 - val_accuracy: 0.6690
+Epoch 6/8
+149/149 [==============================] - 244s 2s/step - loss: 0.3629 - accuracy: 0.8906 - val_loss: 1.3958 - val_accuracy: 0.6696
+Epoch 7/8
+149/149 [==============================] - 244s 2s/step - loss: 0.3295 - accuracy: 0.8989 - val_loss: 1.1706 - val_accuracy: 0.7310
+Epoch 8/8
+149/149 [==============================] - 243s 2s/step - loss: 0.2920 - accuracy: 0.9133 - val_loss: 1.4204 - val_accuracy: 0.7005
